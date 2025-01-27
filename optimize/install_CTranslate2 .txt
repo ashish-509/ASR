@@ -1,0 +1,4 @@
+pip install ctranslate2==3.17.0
+
+:: If got DLL errors, install Microsoft Visual C++ Redistributable:
+:: https://aka.ms/vs/17/release/vc_redist.x64.exe

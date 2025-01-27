@@ -1,0 +1,7 @@
+
+    Issue	                     Solution
+
+1. sox not found	    :    Add SoX to PATH or use full path to sox.exe
+2. PortAudio errors	    :    Reinstall sounddevice: pip install --force-reinstall sounddevice
+3. CUDA out of memory	:    Reduce batch size (per_device_train_batch_size=4)
+4. DLL load failures	:    Install Microsoft Visual C++ Redistributable

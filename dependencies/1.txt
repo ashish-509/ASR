@@ -1,0 +1,11 @@
+:: Create and activate virtual environment
+python -m venv asr-env
+asr-env\Scripts\activate
+
+:: Install core packages
+pip install torch==2.0.1+cu118 torchaudio==2.0.2 --extra-index-url https://download.pytorch.org/whl/cu118
+pip install transformers==4.31.0 datasets==2.14.4 sounddevice==0.4.6
+pip install audiomentations==0.30.0 jiwer==2.5.1
+
+:: Install SoX bindings (Windows-compatible)
+pip install sox==1.4.1
