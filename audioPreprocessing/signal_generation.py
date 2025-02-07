@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import wave
 
-obj = wave.open("../data/train/A17.wav", 'rb')
+obj = wave.open("../data/train/A1.wav", 'rb')
 
 # Extract parameters
 sample_freq = obj.getframerate()
